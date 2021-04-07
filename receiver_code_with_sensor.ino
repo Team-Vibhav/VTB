@@ -15,6 +15,7 @@ int val2;
 
 void setup() {
 pinMode(6, OUTPUT);
+pinMode(5, OUTPUT);
 Serial.begin(115200);
 radio.begin();
 radio.openReadingPipe(0, address);
