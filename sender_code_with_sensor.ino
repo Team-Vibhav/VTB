@@ -18,7 +18,7 @@ const byte address[6] = "00001";
 
 
 void setup() {
-//Wire.begin();
+Wire.begin();
 Serial.begin(115200);
 Serial.println("Initialize MPU");
 gyro.initialisation();
